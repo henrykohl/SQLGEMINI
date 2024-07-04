@@ -31,3 +31,12 @@ pip install -r requiremetns.txt
 ```
 
 * sqlite.py
+
+> ```python
+> python sqlite.py
+> ```
+
+* sql.py
+> ```bash
+> >streamlit run sql.py
+> ```
