@@ -24,6 +24,8 @@ def read_sql_query(sql,db):
     cur=conn.cursor()
     cur.execute(sql)
     rows=cur.fetchall()
+    conn.commit() ## 必需
+    conn.close()  ## 必需
     for row in rows:
         print(row)
     return rows
@@ -58,6 +60,7 @@ submit=st.button("Ask the question")
 # if submit is clicked
 if submit:
     response=get_gemini_response(question,prompt)
+    print(response) ## 測試
     response=read_sql_query(response,"student.db")
     st.subheader("The Response is")
     for row in response:
