@@ -31,7 +31,7 @@ def read_sql_query(sql,db):
     return rows
 
 ## Define Your Prompt
-  prompt=[
+prompt=[
       """
       You are an expert in converting English questions to SQL query!
       The SQL database has the name STUDENT and has the following columns - NAME, CLASS, 
