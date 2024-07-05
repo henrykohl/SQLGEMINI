@@ -84,6 +84,10 @@ pip install -r requiremetns.txt
 >
 >give me the 2nd last rank student name from student table
 
-* `Create a new Space` in https://huggingface.co/new-space
+* **Create a new Space** in https://huggingface.co/new-space
+> 名稱為 `textToSQLGenerativeAI`
 
 * Rename `sql.py` to `app.py`
+> 將 `app.py`、`requirements.txt`、`student.db` 上傳至 `textToSQLGenerativeAI` 的 Space 
+>
+> 在 `Settings` 中的 `New variable` 新增 `GOOGLE_API_KEY` 
