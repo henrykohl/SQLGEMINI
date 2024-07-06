@@ -1,5 +1,6 @@
 # SQLGEMINI
 End to End Gen AI Project using Google Gemini Pro | 2024 [Video](https://www.youtube.com/watch?v=7uR3JFYOa7s)
+> [Lecture Github](https://github.com/krishnaik06/Google-Gemini-Crash-Course/tree/main/sqlllm)
 
 * Syllabus
 ```
@@ -17,6 +18,10 @@ Implementation
 ```bash
 >conda create -p venv python==3.10 -y 
 >conda activate venv/
+
+# or
+> virtualenv venv -p python
+> source ./venv/bin/activate
 ```
 
 * requirements.txt
